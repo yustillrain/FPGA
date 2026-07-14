@@ -13,8 +13,9 @@ LED u_LED(
 
 initial begin
     rst_n = 0;
-    #20
+    #20;
     rst_n = 1;
+    #20;
 
 end
 
